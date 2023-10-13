@@ -1,8 +1,8 @@
 import './embla.css';
 import Carousel from './Carousel.jsx';
 
-const OPTIONS = { containScroll: 'trimSnaps' };
-const SLIDE_COUNT = 5;
+const OPTIONS = { containScroll: 'trimSnaps', loop: true };
+const SLIDE_COUNT = 10;
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 const EmblaCarousel = (props) => {

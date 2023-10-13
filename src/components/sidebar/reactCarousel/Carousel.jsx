@@ -5,7 +5,7 @@ import imageByIndex from './imageByIndex'
 const Carousel = (props) => {
   const { slides, options } = props
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay(
-    {delay: 3000}
+    {delay: 1500}
   )])
 
   return (
